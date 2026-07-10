@@ -9,7 +9,7 @@
       "Bash(git checkout:*)",
       "Bash(node update-forms.js:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nAjout de sections FAQ sur toutes les pages\n\n- Ajout des styles CSS pour les FAQ \\(accordeon HTML/CSS pur\\)\n- FAQ ajoutee a la page index.html \\(questions generales plomberie\\)\n- FAQ ajoutee a la page devis \\(questions sur les devis\\)\n- FAQ ajoutee a la page entreprise \\(questions sur PCH Plomberie\\)\n- FAQ ajoutee aux pages de services :\n  - Debouchage canalisation\n  - Recherche de fuite\n  - Plombier chauffagiste\n  - Installation WC/sanitaires\n  - Installation tuyauterie cuivre\n  - Plombier urgence\n  - Renovation salle de bain\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAjout de sections FAQ sur toutes les pages\n\n- Ajout des styles CSS pour les FAQ \\(accordeon HTML/CSS pur\\)\n- FAQ ajoutee a la page index.html \\(questions generales plomberie\\)\n- FAQ ajoutee a la page devis \\(questions sur les devis\\)\n- FAQ ajoutee a la page entreprise \\(questions sur PCH Plomberie\\)\n- FAQ ajoutee aux pages de services :\n  - Debouchage canalisation\n  - Plombier Chauffagiste\n  - Plombier chauffagiste\n  - Installation WC/sanitaires\n  - Installation tuyauterie cuivre\n  - Plombier urgence\n  - Renovation salle de bain\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
       "Bash(git push)",
       "Bash(git commit:*)",
       "Bash(grep:*)",

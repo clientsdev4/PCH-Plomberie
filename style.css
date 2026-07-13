@@ -234,7 +234,7 @@ hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #297
 .partenaires-pc img{width:20%;height:auto;margin-bottom:-2%}
 .reseau-contact{text-align:center;margin-bottom:7%}.reseau-contact a{font-size:13px;color:#fff}
 .liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:3%}
-.contact-icon,.sqsqsqsqsq,.partenaires,.realisation{display:none}
+.sqsqsqsqsq,.partenaires,.realisation{display:none}
 .plommmmm{box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);}
 
 .hp-wrap {
@@ -268,7 +268,7 @@ hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #297
   .realisation img{width:80%;height:auto;margin:0 2%}
   .partenaires{display:block;margin-top:-12%;margin-bottom:-20%}
   .partenaires img{display:flex;justify-content:center;align-items:center;width:50%;display:flex;justify-content:center;align-items:center;margin:-10% auto}
-  #contact{padding-top:4%;padding-bottom:4%;margin-top:20%}#contact h5{margin-top:10%;margin-bottom:5%;color:#fff;font-weight:600}#contact p{text-align:center;margin:0 0 3%;color:#fff;font-size:15px}.contact-icon{display:flex;position:fixed;padding:1% 2%;right:4%;bottom:5%;border-radius:20px;background-color:#01002c}.contact-icon a{font-size:18px;font-weight:500;color:#fff;text-decoration:none}.liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:5%}.liens-wp{margin-bottom: -3%;}
+  #contact{padding-top:4%;padding-bottom:4%;margin-top:20%}#contact h5{margin-top:10%;margin-bottom:5%;color:#fff;font-weight:600}#contact p{text-align:center;margin:0 0 3%;color:#fff;font-size:15px}.liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:5%}.liens-wp{margin-bottom: -3%;}
   .formformform{display:flex;flex-direction:column;align-items:center;margin:5% auto;width:90%;padding:20px;box-shadow:0 0 10px rgba(0,0,0,.1);color:#fff}.imageimage{background-color:#fff;padding:1%;margin-left:30%;margin-right:30%;margin-bottom:20px;border-radius:20px}.imageimage img{width:90%;height:auto;border-radius:20px}.formformform label{display:block;margin-bottom:8px;margin-left:2%;font-size:20px}.formformform input,.formformform select{width:100%;height:35px;padding:8px;margin-bottom:16px;box-sizing:border-box}.formformform button{display:flex;justify-content:center;padding:10px 40px;font-size:18px;margin:3% auto 2%;border:none;border-radius:4px;cursor:pointer}.formformform button:hover{background-color:#dea405}form {width: 95%;}
   .reseau-contact{text-align:center;margin-bottom:13%}.reseau-contact a{font-size:13px;color:#fff}
   .partenaires-pc,.realisation-pc,.bouboubou,.bouboubou2{display:none}
@@ -358,4 +358,18 @@ hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #297
     .faq-answer p {
         font-size: 15px;
     }
+}
+/* ===== Bottom navigation mobile ===== */
+.bottom-nav{display:none;position:fixed;bottom:10px;left:10px;right:10px;box-sizing:border-box;justify-content:space-around;align-items:center;background:#01002c;border-radius:22px;box-shadow:0 -4px 20px rgba(0,0,0,.4),0 0 30px rgba(0,0,0,.25);z-index:1000;padding:6px 0}
+.bottom-nav-item{display:flex;flex-direction:column;align-items:center;justify-content:center;flex:1;min-width:0;padding:4px 2px;text-decoration:none;color:#fff;transition:transform .3s ease}
+.bottom-nav-item:hover,.bottom-nav-item:active{transform:translateY(-2px)}
+.bottom-nav-icon{display:flex;align-items:center;justify-content:center;width:44px;height:44px;margin-bottom:3px;background:#fff;border-radius:50%;box-shadow:0 4px 12px rgba(0,0,0,.2);transition:transform .3s ease}
+.bottom-nav-item:hover .bottom-nav-icon{transform:scale(1.08)}
+.bottom-nav-icon svg{width:22px;height:22px;stroke:#009de0;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.bottom-nav-label{font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.02em;color:#fff;margin:0}
+.bottom-nav-call .bottom-nav-icon{background:#dea405}
+.bottom-nav-call .bottom-nav-icon svg{stroke:none;fill:#fff}
+@media screen and (max-width:767.98px){
+.bottom-nav{display:flex}
+#contact{padding-bottom:95px}
 }
